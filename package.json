@@ -1,0 +1,33 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development && nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.0.0",
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
