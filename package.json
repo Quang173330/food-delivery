@@ -7,7 +7,8 @@
     "start": "node server/index.js",
     "build": "webpack --mode production",
     "dev": "webpack --mode development && nodemon server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "a": "webpack --mode development"
   },
   "author": "",
   "license": "ISC",
@@ -19,7 +20,8 @@
     "mongoose": "^5.11.15",
     "nodemon": "^2.0.7",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.13",
